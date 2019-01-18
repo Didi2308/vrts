@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: 'another shabby';
+    src: url(fonts/Anothershabby_trial.ttf);
+}
+
+.identity{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.title {
+    color: rgba(0, 90, 50, 0.8);
+    text-align: center;
+    font-family: 'another shabby';
+    font-size: 60px;
+}
+
+.head {
+    background-color: rgba(230, 230, 230, 0.25);
+}
+
+.logo {
+    width: 165px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 40px;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 90, 50, 0.8);
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 17px;
+}
+
+.main-nav li {
+    text-decoration: none;
+    text-align: center;
+    margin: 15px auto;
+    list-style: none;
+}
+
+
