@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ville de Le Houlme</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body class="home">
+    <header class="green">
+
+        <img id="logo" src="images/logolh.png" alt="Le Houlme">
+        <div class="titre">
+            <img class="titre" src="images/logo.png" alt="titre">
+        </div>
+    
+    
+</header>
+        <nav class="navbar">
+
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+
+            </span>
+
+            <ul class="main-nav" id="js-menu">
+                <li><a href="#" class="nav-links">Accueil</a></li>
+                <li><a href="culture_sport.html" class="nav-links">Culture et sports</a></li>
+                <li><a href="commune.html" class="nav-links">Vie Communale</a></li>
+                <li><a href="renseignements.html" class="nav-links">Renseignements</a></li>
+                <li><a href="administration.html" class="nav-links">Administration/Organigramme</a></li>
+                <li><a href="logement.html" class="nav-links">Logements</a></li>
+                <li><a href="photo.html" class="nav-links">Photos</a></li>
+                <li><a href="contact.html" class="nav-links">Contact</a></li>
+            </ul>
+        </nav>
+    
+
+    <section>
+        <div class="intro">
+            <p>Le maire Daniel GRENIER et son équipe municipale vous accuiellent dans la ville de Le Houlme</p>
+        </div>
+        <div class="post">
+            <h1 class="sous">Accueil</h1>
+            <h3><i class="fas fa-city"></i>Notre Ville</h3>
+            <p> Le Houlme est une ville Normande de 4100 Habitants située dans le département de Seine
+                Maritime. Traversée par une petite rivière Le Cailly, qui fut la force motrice alimentant les 6
+                industries
+                textiles construites à la fin du 19é siècle. Celles-ci assuraient du travail pour l’ensemble des
+                habitants
+                de la Ville. Aujourd’hui c’est une ville où il fait bon vivre, gaie et accueillante, nos commerçants,
+                nos
+                forets, le château Rondeaux ou André Gide passa une partie de son enfance. Nos sites rappellent
+                l’histoire
+                industrielle de notre vallée, nos coteaux verdoyants, attirent les randonneurs et les amoureux de la
+                nature. Notre commerce local, nos artisans, le dynamisme de nos associations donnent un attrait
+                touristique
+                à notre vallée du Cailly. </p>
+
+            <h3><i class="fas fa-info-circle"></i>Infomations Pratiques</h3>
+            <ul>
+                <li>Adresse de la mairie : 7 place des Canadiens, 76770 Le Houlme</li>
+                <li>Téléphone : 02 35 74 11 04</li>
+                <li>Fax : 02 35 74 99 21</li>
+                <li>Email : contact@ville-lehoulme.fr</li>
+                <li>A 10 km de Rouen</li>
+                <li>Dotée d'une gare SNCF et desservie par le réseau Astuce</li>
+            </ul>
+
+            <h3><i class="fas fa-calendar-alt"></i>Dates importantes à venir</h3>
+            <ul>
+                <li>5 décembre 2018 : Conseil municipal</li>
+                <li>7 et 8 décembre 2018 : Téléthon</li>
+                <li>15 décembre 2018 : Remise des cadeaux de Noël aux enfants de la ville</li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+    <footer>
+        <p>Ville de Le Houlme/<a href="#">Mentions légales</a></p>
+    </footer>
+
+    <script>
+        let mainNav = document.getElementById("js-menu");
+        let navBarToggle = document.getElementById("js-navbar-toggle");
+
+        navBarToggle.addEventListener("click", function () {
+            mainNav.classList.toggle("active");
+
+        });
+    </script>
+</body>
+
+
+</html>
