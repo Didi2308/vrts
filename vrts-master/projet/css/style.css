@@ -1,0 +1,269 @@
+body{
+    padding: 0%;
+    margin: 0%
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: 'another shabby';
+    src: url(fonts/Anothershabby_trial.ttf);
+}
+
+.navbar {
+    font-size: 18px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #04642C;
+    
+}
+
+.fa-bars:before{
+    color: white;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
+#imageheader{
+    background-image: url('image/paysagev2.jpg');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    height:150px;
+    position: relative;
+
+}
+
+#ville{
+        text-align:center;
+        margin-right: 1%;
+        margin-left: 1%;
+        font-size: 1.5rem;
+        color: white;
+        font-family: 'another shabby';
+        opacity: 0. 9;
+        margin-top: 0;
+        position: absolute;
+        top: 40%;
+}
+
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+    display:none
+}
+
+.menu{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+/* A PARTI DE LA *//* A PARTI DE LA *//* A PARTI DE LA *//* A PARTI DE LA *//* A PARTI DE LA */
+footer{
+    background-color:#D86E08;
+    color: #FFF;
+    text-align: center;
+}
+#esp-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.foot{
+    line-height: 30px;
+    margin-bottom: 3%;
+}
+
+
+.grp{
+    display: flex;
+    flex-direction:column;
+}
+
+#connexion{
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    color: white;
+    font-size: 1rem;
+    
+    
+    
+}
+
+.register{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    color: white;
+    font-size: 1rem;
+ 
+}
+
+.log{
+    color: white;
+    text-decoration: none
+}
+
+#js-menu{
+    padding: 0;
+}
+
+.lien{
+    color: black
+}
+
+/* FIN POUR LA FIN POUR LA FIN POUR LA FIN POUR LA FIN POUR LA FIN POUR LA FIN POUR LA */
+@media screen and (min-width: 768px) {
+    
+    #imageheader{
+        background-image: url('image/paysagev2.jpg');
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        height:200px;
+        position: relative;
+    
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 50px;
+        align-items: center;
+        width: 100%;
+        background-color: #04642C;
+        
+        ;
+    }
+    
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    
+    .main-nav li {
+        margin: 0;
+        display: inline;
+    }
+    
+    .nav-links {
+        font-size: 17px;
+    }
+    
+    .navbar-toggle {
+        display: none;
+    }
+    
+    li{
+        margin: 3px;
+    }
+    
+    .logo{
+        height:200px;
+        width:250px;
+        position: absolute;
+        top: 0;
+        right: 1%;
+        display:flex
+    }
+    
+    #ville{
+        position: absolute;
+        top: 30px;
+        right: 20%;
+        font-size: 3.5rem;
+        color: white;
+        font-family: 'another shabby';
+        opacity: 0. 9
+    }
+    .menu{
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    #esp-foot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    footer{
+        background-color: #D86E08;
+        color: rgb(255, 255, 255)
+    }
+
+    .foot{
+        margin-bottom: 1.5%
+    }
+
+    #login{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #connexion{
+        position: absolute;
+        top: 10%;
+        left: 8%;
+        color: white;
+        font-size: 2rem;  
+    }
+    
+    .log{
+        color: white;
+        text-decoration: underline
+    }
+
+    .register{
+        position: absolute;
+        top: 10%;
+        left:1%;
+        color: white;
+        font-size: 2rem;
+    }    
+
+
+        
+    
+
+}
