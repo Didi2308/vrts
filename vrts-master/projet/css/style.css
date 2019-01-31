@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0%;
     margin: 0%
 }
@@ -9,7 +9,7 @@ body{
     margin: 0;
 }
 
-@font-face{
+@font-face {
     font-family: 'another shabby';
     src: url(fonts/Anothershabby_trial.ttf);
 }
@@ -20,10 +20,9 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #04642C;
-    
 }
 
-.fa-bars:before{
+.fa-bars:before {
     color: white;
 }
 
@@ -55,215 +54,204 @@ body{
     display: block;
 }
 
-#imageheader{
+#imageheader {
     background-image: url('image/paysagev2.jpg');
     background-repeat: no-repeat;
     background-position-y: bottom;
-    height:150px;
+    height: 150px;
     position: relative;
-
 }
 
-#ville{
-        text-align:center;
-        margin-right: 1%;
-        margin-left: 1%;
-        font-size: 1.5rem;
-        color: white;
-        font-family: 'another shabby';
-        opacity: 0. 9;
-        margin-top: 0;
-        position: absolute;
-        top: 40%;
+#ville {
+    text-align: center;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'another shabby';
+    opacity: 0. 9;
+    margin-top: 0;
+    position: absolute;
+    top: 40%;
 }
 
-
-
-.logo{
+.logo {
     width: 100px;
     height: 100px;
-    display:none
+    display: none
 }
 
-.menu{
+.menu {
     font-size: 1.3rem;
     text-decoration: none;
     color: white;
 }
-/* A PARTI DE LA *//* A PARTI DE LA *//* A PARTI DE LA *//* A PARTI DE LA *//* A PARTI DE LA */
-footer{
-    background-color:#D86E08;
+
+/* A PARTI DE LA */
+
+/* A PARTI DE LA */
+
+/* A PARTI DE LA */
+
+/* A PARTI DE LA */
+
+/* A PARTI DE LA */
+
+footer {
+    background-color: #D86E08;
     color: #FFF;
     text-align: center;
 }
-#esp-foot{
+
+#esp-foot {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 90%;
     margin-right: auto;
-    margin-left: auto; 
+    margin-left: auto;
 }
 
-.foot{
+.foot {
     line-height: 30px;
     margin-bottom: 3%;
 }
 
-
-.grp{
+.grp {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
-#connexion{
+#connexion {
     position: absolute;
     top: 10%;
     left: 23%;
     color: white;
     font-size: 1rem;
-    
-    
-    
 }
 
-.register{
+.register {
     position: absolute;
     top: 10%;
     left: 2%;
     color: white;
     font-size: 1rem;
- 
 }
 
-.log{
+.log {
     color: white;
     text-decoration: none
 }
 
-#js-menu{
+#js-menu {
     padding: 0;
 }
 
-.lien{
+.lien {
     color: black
 }
 
 /* FIN POUR LA FIN POUR LA FIN POUR LA FIN POUR LA FIN POUR LA FIN POUR LA FIN POUR LA */
+
 @media screen and (min-width: 768px) {
-    
-    #imageheader{
-        background-image: url('image/paysagev2.jpg');
+    #imageheader {
+        background-image: url('image/exterieur_batiment.jpg');
         background-repeat: no-repeat;
         background-position-y: bottom;
-        height:200px;
+        height: 200px;
         position: relative;
-    
     }
-    
+    #imageheader1 {
+        background-image: url('image/salle_squash.jpg');
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        height: 200px;
+        position: relative;
+    }
     .navbar {
         display: flex;
         justify-content: space-between;
         padding-bottom: 0;
-        height: 50px;
+        height: 45px;
         align-items: center;
         width: 100%;
-        background-color: #04642C;
-        
+        background-color: rgba(4, 100, 44, 0.85);
         ;
     }
-    
     .main-nav {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
     }
-    
-    
     .main-nav li {
         margin: 0;
         display: inline;
     }
-    
     .nav-links {
         font-size: 17px;
     }
-    
     .navbar-toggle {
         display: none;
     }
-    
-    li{
+    li {
         margin: 3px;
     }
-    
-    .logo{
-        height:200px;
-        width:250px;
+    .logo {
+        height: 200px;
+        width: 250px;
         position: absolute;
         top: 0;
         right: 1%;
-        display:flex
+        display: flex
     }
-    
-    #ville{
+    #ville {
         position: absolute;
         top: 30px;
         right: 20%;
         font-size: 3.5rem;
         color: white;
         font-family: 'another shabby';
-        opacity: 0. 9
+        opacity: 0. 9;
+        text-shadow: 2px 2px 2px black;
     }
-    .menu{
+    .menu {
         font-size: 1.8rem;
         text-decoration: none;
         color: white;
     }
-
-    #esp-foot{
+    #esp-foot {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    footer{
+    footer {
         background-color: #D86E08;
         color: rgb(255, 255, 255)
     }
-
-    .foot{
+    .foot {
         margin-bottom: 1.5%
     }
-
-    #login{
+    #login {
         display: flex;
         flex-direction: row;
     }
-
-    #connexion{
+    #connexion {
         position: absolute;
         top: 10%;
         left: 8%;
         color: white;
-        font-size: 2rem;  
+        font-size: 2rem;
     }
-    
-    .log{
+    .log {
         color: white;
         text-decoration: underline
     }
-
-    .register{
+    .register {
         position: absolute;
         top: 10%;
-        left:1%;
+        left: 1%;
         color: white;
         font-size: 2rem;
-    }    
-
-
-        
-    
-
+    }
 }
